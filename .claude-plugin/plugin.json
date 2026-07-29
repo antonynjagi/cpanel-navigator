@@ -1,0 +1,8 @@
+{
+  "name": "cpanel-navigator",
+  "description": "Automates cPanel and WHM web hosting tasks via browser automation — file uploads, database creation, PHP config, DNS records, cron jobs, and firewall management. Includes headless-safe UAPI file I/O path that bypasses the broken xterm.js terminal in headless Chromium.",
+  "author": {
+    "name": "Antony Njagi",
+    "url": "https://github.com/antonynjagi"
+  }
+}
