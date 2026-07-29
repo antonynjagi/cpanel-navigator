@@ -14,12 +14,12 @@ Most developers hate clicking through cPanel. This skill teaches AI agents to do
 
 | Task | Example prompt |
 |------|----------------|
-| Upload a file | `"Upload index.php to /public_html/active/myapp/"` |
+| Upload a file | `"Upload bot.php to /public_html/active/myapp/"` |
 | Read a live file | `"Read /public_html/config.php and show me the DB credentials"` |
 | Overwrite a file | `"Replace index.php on the server with the local version"` |
 | Create a database | `"Create MySQL database myapp_db in cPanel"` |
 | Change PHP version | `"Switch the site to PHP 8.2 in MultiPHP Manager"` |
-| Add a cron job | `"Schedule checkamount.php to run every 5 minutes"` |
+| Add a cron job | `"Schedule bot.php to run every 5 minutes"` |
 | Add a DNS record | `"Add a CNAME record for mail.example.com"` |
 | WHM firewall | `"Whitelist IP 203.0.113.10 in CSF firewall"` |
 | Check services | `"Is Apache running? Check WHM service status"` |
@@ -53,7 +53,7 @@ Most developers hate clicking through cPanel. This skill teaches AI agents to do
 unzip cpanel-navigator.zip -d ~/.claude/skills/
 
 # From GitHub
-git clone https://github.com/antonynjagi/cpanel-navigator ~/.claude/skills/cpanel-navigator
+git clone https://github.com/<your-handle>/cpanel-navigator ~/.claude/skills/cpanel-navigator
 ```
 
 ### 2. Verify browser-use
