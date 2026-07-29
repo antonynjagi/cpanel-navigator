@@ -1,5 +1,6 @@
 ---
 name: cpanel-navigator
+version: 1.0.0
 description: Automates cPanel web hosting control panel tasks via browser automation. Use when the user needs to upload files to a live server, manage databases, configure PHP settings, create email accounts, manage DNS records, access the in-browser terminal, or perform any operation inside a cPanel or WHM interface. Triggers on phrases like "deploy to cpanel", "upload via cpanel file manager", "create database in cpanel", "cpanel terminal", "navigate cpanel", or "push to production via cpanel".
 allowed-tools: Bash
 ---
